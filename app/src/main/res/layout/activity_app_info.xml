@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="?android:attr/colorPrimary"
+                android:minHeight="?android:attr/actionBarSize"
+                android:theme="?android:attr/actionBarTheme">
+
+                <ImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_icon_description"
+                    android:transitionName="@string/app_icon_transition_name"
+                    app:srcCompat="@android:drawable/sym_def_app_icon"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:ellipsize="marquee"
+                    android:focusable="auto"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:transitionName="@string/app_name_transition_name"
+                    tools:targetApi="lollipop"
+                    tools:text="Settings" />
+
+            </android.support.v7.widget.Toolbar>
+
+            <com.miguelcatalan.materialsearchview.MaterialSearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/search_view_patch"
+                android:paddingStart="@dimen/search_view_patch"
+                android:theme="@style/MaterialSearchViewStyle.AppInfo" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:id="@+id/action_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:max="0"
+                android:progress="0"
+                android:theme="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal.NoPadding"
+                android:visibility="gone"
+                app:mpb_progressStyle="horizontal"
+                app:mpb_showProgressBackground="false"
+                app:mpb_useIntrinsicPadding="false" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_component"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorHeight="3dp"
+                app:tabMode="scrollable" />
+
+        </FrameLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <sjdhome.componentmanager.custom.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">组件管理器</string>
+    <string name="item_search">搜索</string>
+    <string name="tab_item_component_service">服务</string>
+    <string name="tab_item_component_broadcast_receiver">广播接收器</string>
+    <string name="tab_item_component_activity">活动</string>
+    <string name="tab_item_component_content_provider">内容提供器</string>
+    <string name="item_select_all">选择所有</string>
+    <string name="item_apply_action">应用操作</string>
+    <string name="search_hint_main">应用名称</string>
+    <string name="search_hint_app_info">组件名称</string>
+    <string name="shizuku_permission_not_allowed_hint">Shizuku 权限被拒绝。</string>
+    <string name="item_refresh">刷新</string>
+    <string name="item_view_options">视图选项</string>
+    <string name="action_failed">禁用失败。</string>
+    <string name="item_by_app_name">根据应用名称</string>
+    <string name="item_by_setup_time">根据安装时间</string>
+    <string name="item_by_update_time">根据更新时间</string>
+    <string name="item_show_system_app">显示系统应用</string>
+    <string name="item_action_mode">行动模式</string>
+    <string name="item_root_mode">Root</string>
+    <string name="item_shizuku_mode">Shizuku (推荐)</string>
+    <string name="title_user_options">用户选项</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_ok">完成</string>
+    <string name="item_ifw_mode">IFW</string>
+    <string name="loading_hint">载入中…</string>
+    <string name="item_about">关于</string>
+    <string name="component_state_not_changed_hint">状态无法改变。</string>
+    <string name="no_root_hint">没有 Root 权限。</string>
+</resources>

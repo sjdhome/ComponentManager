@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="teal_200">#80CBC4</color>
+
+    <color name="list_background_color_light">#FAFAFA</color>
+    <color name="list_background_color_dark">#424242</color>
+
+    <color name="item_background_checked">@color/teal_200</color>
+    <color name="item_background_unchecked">@color/list_background_color_light</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/item_search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_refresh"
+        android:title="@string/item_refresh" />
+    <item
+        android:id="@+id/item_view_options"
+        android:icon="@drawable/ic_sort_24dp"
+        android:title="@string/item_view_options"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group_sort_options"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_by_app_name"
+                    android:title="@string/item_by_app_name" />
+                <item
+                    android:id="@+id/item_by_setup_time"
+                    android:title="@string/item_by_setup_time" />
+                <item
+                    android:id="@+id/item_by_update_time"
+                    android:title="@string/item_by_update_time" />
+            </group>
+            <item
+                android:id="@+id/item_show_system_app"
+                android:checkable="true"
+                android:title="@string/item_show_system_app" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_action_options"
+        android:title="@string/item_action_mode">
+        <menu>
+            <group
+                android:id="@+id/group_action_options"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_root_mode"
+                    android:title="@string/item_root_mode" />
+                <item
+                    android:id="@+id/item_shizuku_mode"
+                    android:title="@string/item_shizuku_mode" />
+                <item
+                    android:id="@+id/item_ifw_mode"
+                    android:title="@string/item_ifw_mode" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_user_options"
+        android:title="@string/title_user_options" />
+    <item
+        android:id="@+id/item_about"
+        android:title="@string/item_about" />
+</menu>

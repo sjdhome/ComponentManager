@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+        <item name="searchBackground">@color/colorPrimary</item>
+        <item name="searchBackIcon">@drawable/ic_arrow_back_24dp</item>
+        <item name="searchCloseIcon">@drawable/ic_close_24dp</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle.Main" parent="MaterialSearchViewStyle">
+        <item name="android:hint">@string/search_hint_main</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle.AppInfo" parent="MaterialSearchViewStyle">
+        <item name="android:hint">@string/search_hint_app_info</item>
+    </style>
+
+</resources>

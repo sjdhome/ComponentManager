@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Component Manager</string>
+    <string name="item_search">Search</string>
+    <string name="item_view_options">View Options</string>
+    <string name="item_refresh">Refresh</string>
+    <string name="item_select_all">Select all</string>
+    <string name="item_apply_action">Apply action</string>
+    <string name="app_icon_description" translatable="false">App Icon</string>
+    <string name="app_icon_transition_name" translatable="false">App Icon</string>
+    <string name="app_name_transition_name" translatable="false">App Name</string>
+    <string name="tab_item_component_service">Service</string>
+    <string name="tab_item_component_broadcast_receiver">Broadcast Receiver</string>
+    <string name="tab_item_component_activity">Activity</string>
+    <string name="tab_item_component_content_provider">Content Provider</string>
+    <string name="search_hint_main">App Name</string>
+    <string name="search_hint_app_info">Component Name</string>
+    <string name="shizuku_permission_not_allowed_hint">Shizuku permission denied.</string>
+    <string name="action_failed">disable failed.</string>
+    <string name="item_by_app_name">By app name</string>
+    <string name="item_by_setup_time">By setup time</string>
+    <string name="item_by_update_time">By update time</string>
+    <string name="item_show_system_app">Show system apps</string>
+    <string name="item_action_mode">Action Mode</string>
+    <string name="item_root_mode">Root</string>
+    <string name="item_shizuku_mode">Shizuku (Recommend)</string>
+    <string name="title_user_options">Users Options</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="item_ifw_mode">IFW</string>
+    <string-array name="tab_item_component">
+        <item>@string/tab_item_component_service</item>
+        <item>@string/tab_item_component_broadcast_receiver</item>
+        <item>@string/tab_item_component_activity</item>
+        <item>@string/tab_item_component_content_provider</item>
+    </string-array>
+    <string name="loading_hint">Loading…</string>
+    <string name="item_about">About</string>
+    <string name="component_state_not_changed_hint">status cannot be changed.</string>
+    <string name="no_root_hint">No root permissions.</string>
+</resources>

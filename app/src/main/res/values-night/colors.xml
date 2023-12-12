@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_background_unchecked">@color/list_background_color_dark</color>
+</resources>
